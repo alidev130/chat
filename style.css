@@ -1,0 +1,319 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+body {
+  background: hsl(270, 20%, 96%);
+  width: 375px;
+  height:600px;
+  }
+
+body{
+  font-family: 'Rubik', sans-serif;
+  }
+
+.mess {
+  width: 130px;
+  height: 54px;
+  }
+.mes {
+  border-radius: 10px;
+  font-size: 12px;
+  }
+#container {
+  width: 100%;
+  height: 100%;
+  position: relative
+  }
+.circle{
+  background:linear-gradient(to top, hsl(264, 100%, 61%) , 
+  hsl(264, 100%, 61%) 60%,
+  hsl(293, 100%, 63%));
+  width: 100%;
+  height: 100%;
+  clip-path: ellipse(200px 570px at top left);
+  }
+
+.circlle {
+  background:#ECECEC;
+  position: absolute;
+  bottom: -420px;
+  width: 100%; height: 100%;
+  clip-path: ellipse(227px 500px at bottom right);
+  }
+
+#phone {
+  background: white;
+  width: 245px;
+  height: 620px;
+  position : absolute;
+  bottom: 100px;
+  left: 50px;
+  top: 50px;
+  border-radius: 15px;
+  }
+
+#in-phone {
+  width: 230px;
+  height: 600px;
+  background: hsl(270, 20%, 96%);
+  position: absolute;
+  left: 7.5px;
+  top: 7.5px;
+  border-radius: 15px;
+  }
+
+
+.top {
+  background: linear-gradient(to left ,hsl(293, 100%, 63%), 
+  hsl(264, 100%, 61%));
+  width: 100%;
+  height: 66px;
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  }
+
+.ntf {
+  background:white;
+  width: 130px;
+  height: 28px;
+  margin-left: 50px;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px
+  }
+
+.top h2 {
+  color: white;
+  position: relative;
+  top: 30px;
+  font-size: 14px;
+  left: 70px;
+  }
+
+.top p {
+  color: lightgray
+  ;
+  position: relative;
+  top: 33px;
+  font-size: 10px;
+  left: 70px;
+  }
+
+.top img {
+  width : 35px;
+  border: white solid 2px;
+  border-radius: 50%;
+  position: relative;
+  left: 29px;
+  top:-23px;
+  }
+
+.top .a {
+  border: none transparent 0;
+  position: absolute;
+  top: 33px;
+  left: -03px;
+  height: 20px;
+  }
+
+#messages {
+  position: relative;
+  top: 66px; 
+  overflow: auto;
+  height: 100vh;
+  }
+
+.f-m{
+  background: hsl(206, 1%, 89%);
+  color: hsl(276, 55%, 52%); font-size: 12px;
+  border-radius: 10px; padding: 8px;
+  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  overflow: auto;
+  }
+.load {
+  display: flex;
+  flex-direction: column;
+  
+  }
+.point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: hsl(206, 1%, 89%);
+  position: relative;
+  left: 200px;
+  margin: 1px;
+  top: 6px
+  }
+
+.s-m{
+  background: hsl(206, 1%, 89%);
+  color: hsl(276, 55%, 52%); font-size: 12px;
+  border-radius: 10px; padding: 8px;
+  margin-bottom: 0.8rem;
+  margin-top:0;
+  margin-left: 1rem;
+  overflow: auto;
+  }
+
+.imgs{
+  display: felx;
+  width: 100vh;
+  }
+.imgs img {
+  width: 50px;
+  position: relative;
+  left: 60px;
+  border-radius: 10px;
+  }
+
+.f-1 {
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  padding-bottom: 1rem;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  left: 70px
+  }
+
+.f-2 {
+  width: 120px;
+  height: 30px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  left: 100px;
+  margin-top: 10px
+  }
+
+.sp-mes {
+  width: 150px;
+  height: 70px;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 1rem;
+  background: hsl(206, 1%, 89%);
+  border-radius: 10px;
+  color: hsl(276, 55%, 52%);
+  position: relative; 
+  margin-left: 1rem;
+  margin-top: 0.8rem
+  }
+
+.radio {
+  background: linear-gradient(to right ,hsl(293, 100%, 63%), 
+  hsl(264, 100%, 61%));
+  border-radius: 20px;
+  height: 40px;
+  width: 200px;
+  display: felx; 
+  margin-left: 1rem;
+  justify-content: center; 
+  align-items: center;
+  }
+.radio input[type="radio"] {
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; /* لجعل الشكل دائري */
+  border: 1px solid #fff; /* لتحديد حدود الشكل */
+  margin-left: 8px; 
+  margin-top: 12px;
+  background-color: transparent;
+}
+
+.radio div label {
+  display: flex;
+  margin-top: -17px;
+  margin-left: 30px; 
+  color: white;
+  font-size: 10px
+  }
+
+.radio div span {
+  font-weight: 700;
+  font-size: 23px;
+  margin-left: 20px; 
+  margin-top: -7px;
+  }
+
+input[type="radio"]:checked {
+  background-color: blueviolet
+}
+
+.radio2 {
+  background: linear-gradient(to right ,hsl(293, 100%, 63%), 
+  hsl(264, 100%, 61%));
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 0.8rem;
+  margin-left: rem;
+  width: 200px;
+  display: felx; 
+  justify-content: center; 
+  align-items: center;
+  }
+.radio .rd span {
+  font-weight: 700;
+  font-size: 23px;
+  margin-left: 40px; 
+  margin-top: -7px;
+  }
+
+input[type="text"]
+{
+  width: 210px;
+  margin: 0.8rem 0 0.8rem -5.5px;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  padding: 12px;
+  }
+
+
+#img {
+  background: hsl(271, 36%, 24%)
+  ;
+  width: 25px;
+  color: transparent;
+  position: relative;
+  bottom: 40px; 
+  left: 170px;
+  border-radius: 15px;
+  }
+
+
+#book h1 {
+  color: hsl(271, 36%, 24%);
+  position: relative;
+  top: 120px; 
+  text-align: center;
+  font-size: 38px
+  }
+  
+
+#book p {
+  color: hsl(270, 7%, 64%);
+  text-align: center;
+  position: relative;
+  top: 150px;
+  0font-size: 18px;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+  line-height: 27px
+  }
+  
